@@ -1,0 +1,844 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'RNS Physis';
+    font-weight: lighter;  
+    font-size: 13px;
+    color: #555555;
+    letter-spacing: 0;
+    
+}
+
+.toggle {
+    display: none;
+}
+.main {
+    height: 148px;
+}
+.img {
+    width: 142px;
+    height: 98px;
+}
+.my-style ul li {
+    float: left;
+    display: inline;
+}
+.my-style a {
+    font-size: 16px;
+    display: inline;
+}
+.my-style img {
+    width: 41px;
+    height: 41px;
+}
+.my-style a:hover {
+    color: rgb(142, 207, 233);
+}
+.service {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+}
+.service:hover {
+    cursor: pointer;
+}
+.s1:hover .service {
+    display: block;
+}
+.my-style1 a {
+    font-size: 16px;
+    display: inline;
+    text-decoration: none;
+    color: #333333;
+
+}
+.offcanvas-body .nav-link:hover {
+    color: rgb(142, 207, 233);
+}
+.my-style2 {
+    padding-top: 20px;
+}
+.my-style2 img {
+    height: 30px;
+}
+.toggle button {
+    border: none;
+}
+.Banner {
+    position: relative;
+    padding-top: 148px;
+   
+}
+.carousel-item .p2 {
+    position: absolute;
+    top: 410px;
+    left: 220px;
+    width: 591px;
+    height: 63px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  
+}
+.carousel-item {
+    position: relative;
+    max-width: 100%;
+    opacity: 1;
+    background-image: url(images/Rectangle\ 3839.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.carousel-item .p1 {
+    position: absolute;
+    top: 250px;
+    width: 700px;
+    left: 220px;
+    text-align: left;
+    font-size: 58px;
+    letter-spacing: -1.16px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 60px;
+}
+.hover .btn {
+    position: absolute;
+    color: #FFFFFF;
+    top: 570px;
+    left: 220px;
+    width: 170px;
+    height: 55px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+   
+}
+.hover .btn:hover {
+    box-shadow: inset 170px 0 0 0 #FFFFFF;
+    color: black;
+}
+.btn2 {
+    position: relative;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    background-color: #4BCAB1;
+    border: none;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+.btn2:hover {
+    box-shadow: inset 170px 0 0 0 #83f1db;
+    color: white;
+
+}
+.About_us {
+    background-image: url(images/Mask\ Group\ 289.png), url(images/Rectangle-4303.png);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-attachment: scroll, scroll;
+}
+.section1 {
+    padding-top: 100px;
+}
+.p3 {
+    color: rgb(87, 85, 85);
+    font-weight: 500;
+    letter-spacing: 0.70px;
+}
+.p4 {
+    padding-top: 20px;
+    letter-spacing: -0.96px;
+    line-height: 56px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #00A8F0;
+}
+.p5 {
+    line-height: 30px;
+    padding-left: 20px;
+    border: 2px solid rgb(228, 224, 224);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 18px;
+}
+.content_image {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid rgb(228, 224, 224);
+    transition: 0.5s ease-in-out;
+}
+.content_image .image1 {
+    max-width: 100%;
+    margin: auto 0px;
+    padding: 10px;
+    float: left;
+}
+.content_image::after {
+    content: "";
+    position: absolute;
+    background-color: #00A8F0;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.content_image:hover::after {
+    width: 100%;
+}
+.content_image:hover {
+    background-color: #FFFFFF;
+}
+.About_us_caption {
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.Explore_our_service {
+    padding-bottom: 0px;
+}
+.explore {
+    text-align: center;
+    padding-top: 50px;
+    color: #40c1f8;
+    font-weight: 400;
+}
+.item {
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.carousel_heading {
+    color: rgb(58, 57, 57);
+    font-size: 32px;
+    font-weight: 300;
+}
+.carousel_P {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: rgb(87, 84, 84);
+}
+.carousel_image {
+    padding: 20px;
+    border: 1px solid #40c1f8;
+    margin: 0 auto;
+}
+.heading {
+    padding: 60px;
+    text-align: center;
+    color: #00A8F0;
+    font-weight: 400;
+}
+.Meet_our_team {
+    position: relative;
+}
+.center-image {
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.Home_care {
+    padding: 100px;
+    background-color: #F7F7F7;
+}
+.people_image {
+    padding: 10px;
+    padding-left: 90px;
+    align-items: center;
+    padding-top: 20px;
+}
+.people_image h4 {
+    color: rgb(87, 84, 84);
+    font-weight: 400;
+}
+.meet_our_team_caption {
+    padding-left: 20px;
+}
+.meet_our_team_caption p {
+    margin-bottom: 6px;
+    color: #00A8F0;
+}
+.Eldery_care {
+    background-image: url(images/iStock-1034254290.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.Eldery_care_image {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 190px;
+}
+.Eldery_care_caption {
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+.Eldery_care_caption_1 {
+    padding-left: 190px;
+}
+.Eldery_care_caption_1 p {
+    color: #00A8F0;
+    margin-bottom: 0px;
+}
+.Eldery_care_caption_1 h5 {
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.Our_success_story {
+    background-image: url(images/section-3\ image.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item_1 {
+    margin-top: 70px;
+    padding: 60px;
+    background-color: #e0ebf8;
+}
+.item_1 .carousel_heading_1 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.item_1 .carousel_heading_2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.carousel_P1 {
+    font-size: 18px;
+}
+.Explore_gallery {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: #00A8F0;
+    font-size: 48px;
+    font-weight: 300;
+}
+.Explore_gallery h4 {
+    font-size: 48px;
+    font-weight: 300;
+}
+.our_story_P {
+    padding-top: 80px;
+    color: #00A8F0;
+    font-size: 35px;
+    font-weight: 400;
+}
+.our_story_btn {
+    padding-top: 80px;
+    display: flex;
+    justify-content: end;
+}
+.our_story_btn button {
+    padding: 15px;
+    border: none;
+    background-color: #4BCAB1;
+    color: white;
+}
+ footer {
+    margin-top: 100px;
+    background-color: #e5edfa;
+
+}
+.footer-image {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gallery_image_5 {
+    width: 98%;
+    padding-left: 22px;
+    padding-top: 40px;
+    transition: 0.5 ease-in;
+}
+
+.gallery_image_3,.gallery_image_4 {
+    padding-top: 16px;
+}
+
+.gallery_image_1,.gallery_image_2 {
+    padding-top: 16px;
+}
+
+.gallery_image_1:hover,.gallery_image_2:hover,.gallery_image_3:hover,.gallery_image_4:hover,.gallery_image_5:hover {
+    transform: scale(0.97);
+}
+footer {
+    background-color: #e0ebf8; 
+    margin-top: 50px;
+}
+.footer_content ul li {
+    font-size: 14px;
+    list-style: none;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.footer_content ul li a {
+    text-decoration: none;
+    color: #272626;
+}
+.footer_content ul li a:hover {
+    color: #00A8F0;
+}
+
+
+
+    @media screen and (max-width:1200px) {
+        .my-style a {
+            font-size: 13px;
+        }
+        .img {
+            width: 100px;
+            height: 80px;
+    
+        }
+        .my-style1 img {
+            height: 40px;
+        }
+        .carousel-item .p1 {
+            width: 600px;
+            top: 180px;
+            left: 70px;
+            font-size: 40px;
+        }
+        .carousel-item .p2 {
+            position: absolute;
+            top: 340px;
+            left: 70px;
+            height: 40px;
+            text-align: left;
+            font-size: 22px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .hover a .btn {
+            position: absolute;
+            color: #FFFFFF;
+            top: 450px;
+            left: 70px;
+            width: 170px;
+            height: 60px;
+            background-color: #00A8F0;
+            border: none;
+            opacity: 1;
+        }
+        .center-image img {
+            position: absolute;
+            left: -18%;
+            top: 30%;
+            transform: translate(0, -50%);
+            width: 200px;
+        }
+        .Eldery_care .Eldery_care_image {
+            padding-bottom: 70px;
+            padding-top: 70px;
+            padding-left: 86px;
+        }
+        .Eldery_care .Eldery_care_caption {
+            color: white;
+            font-size: 23px;
+            font-weight: 300;
+            padding-left: 20px;
+            padding-top: 60px;
+            padding-right: 30px;
+            margin: 0px;      
+        }
+        .Eldery_care .Eldery_care_caption_1 {
+            padding-left: 110px;
+        }
+    }
+    @media screen and (max-width:1024px) {
+        .toggle {
+            display: flex;
+            float: left;
+        }
+        .my-style {
+            display: none;
+        }
+    
+        .my-style1 div {
+            display: none;
+        }
+        .carousel-item .p1 {
+            width: 500px;
+            height: 0px;
+            position: absolute;
+            top: 170px;
+            left: 60px;
+            text-align: left;
+            font-size: 300 35px;
+            letter-spacing: -1.16px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .carousel-item .p2 {
+            position: absolute;
+            top: 320px;
+            left: 60px;
+            width: 400px;
+            height: 40px;
+            text-align: left;
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .hover a .btn {
+            position: absolute;
+            color: #FFFFFF;
+            top: 430px;
+            left: 60px;
+            width: 150px;
+            height: 50px;
+            background-color: #00A8F0;
+            border: none;
+            opacity: 1;
+            font-size: 13px;
+        }
+        .p4 {
+            font-size: 30px;
+        }
+        .Eldery_care_image img {
+            padding-left: 15px;
+        }
+        .Our_success_story .our_story_btn {
+            padding-top: 40px;
+        }
+       .Our_success_story .our_story_btn button {
+            width: 150px;
+            height: 40px;
+            font-size: 13px;
+            padding: 0px;
+        }
+        .Explore_our_service {
+            padding-bottom: 50px;
+        }
+        .our_story .our_story_P {
+            padding-top: 40px;
+        }        
+        .carousel_heading_2::before {           
+            display: none;
+        }
+    }
+    @media screen and (max-width:921px) {
+        .gallery_Image_2 img {
+            width: 49%;
+        }
+    }
+    @media screen and (min-width:992px) {
+        .btn2 {
+            position: relative;
+            color: #FFFFFF;
+            width: 170px;
+            height: 60px;
+            background-color: #4BCAB1;
+            border: none;
+            opacity: 1;
+            transition: 0.5s ease-in-out;
+            top: -100px;
+        }
+        .btn2:hover {
+            box-shadow: inset 170px 0 0 0 #83f1db;
+            color: white;
+    
+        }
+        
+    }
+    @media screen and (max-width:992px) {
+        .center-image img {
+            left: 700px;
+            bottom: 500px;
+            position: relative;
+        }
+        .footer_content li {
+            padding-top: 10px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .carousel-item .p1 {
+            width: 400px;
+            height: 0px;
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            text-align: left;
+            font-size: 300 35px;
+            letter-spacing: -1.16px;
+            color: #FFFFFF;
+            opacity: 1;
+            line-height: 50px;
+    
+        }
+      .carousel-item .p2 {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            width: 400px;
+            height: 40px;
+            text-align: left;
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .hover a .btn {
+            position: absolute;
+            color: #FFFFFF;
+            top: 310px;
+            left: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: #00A8F0;
+            border: none;
+            opacity: 1;
+            font-size: 13px;
+        }
+        .About_us .section1 {
+            padding-top: 70px;
+        }
+        .content .p3 {
+            color: rgb(87, 85, 85);
+            font-weight: 500;
+            letter-spacing: 0px;
+            font-size: 22px;
+        }
+        .content .p4 {
+            font-size: 35px;
+            padding-top: 10px;
+        }
+        .center-image img {
+            left: 660px;
+            bottom: 500px;
+            position: relative;
+        }
+        .footer_content {
+            text-align: center;
+        }
+    }
+    
+    .Eldery_care_caption_1 {
+        padding-bottom: 50px;
+    }
+    .Explore_our_service {
+        padding-bottom: 116px;
+    }
+    @media screen and (max-width:774px) {
+        .center-image img {
+            display: none;
+        }
+        .Our_success_story .our_story_btn {
+            padding-top: 50px;
+            display: flex;
+            justify-content: start;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .carousel-item .p1 {
+            width: 350px;
+            top: 60px;
+            left: 20px;
+            text-align: left;
+            font-size: 25px;
+            font-weight: 550;
+            letter-spacing: 0.10px;
+            color: #FFFFFF;
+            opacity: 1;
+            line-height: 30px;
+            background-color: blue transparent;
+        }
+        .carousel-item .p2 {
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            width: 400px;
+            height: 40px;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .hover a .btn {
+           top: 240px;
+            left: 20px;
+            width: 120px;
+            height: 45px;
+            background-color: #00A8F0;
+            border: none;
+            opacity: 1;
+            font-size: 13px;
+        }
+        .About_us .section1 {
+            padding-top: 50px;
+        }
+       .content .p3 {
+            margin-top: 0px;
+            padding-top: 0px;
+            font-size: 15px;
+        }
+        .content .p4 {
+            font-size: 30px;
+            padding-top: 0px;
+            line-height: 45px;
+        }
+        .image_gallery .gallery_Image_2 img {
+            width: 100%;
+            padding-top: 16px;
+            padding-left: 10px;
+        }
+        .Explore_gallery p {
+            font-size: 30px;
+        }
+        .Eldery_care_image .Eldery_care_caption {
+            font-size: 20px;
+        }
+        .Eldery_care_caption_1 {
+            font-size: 10px;
+        }
+        .Explore_our_service{
+            padding-bottom: 100px;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .carousel-item .p1 {
+            width: 70%;
+            font-size: 18px;
+            font-weight: 500;
+            top: 40px;
+            line-height: 25px;
+        }
+        .carousel-item .p2 {
+            left: 20px;
+            width: 70%;
+            font-size: 13px;
+            top: 100px;
+    
+        }
+        .hover a .btn {
+            top: 170px;
+            left: 20px;
+            width: 100px;
+            height: 40px;
+            background-color: #00A8F0;
+            border: none;
+            opacity: 1;
+            font-size: 10px;
+    
+        }
+        .content .p3 {
+            font-size: 10px;
+        }
+        .content .p4 {
+            font-size: 20px;
+            line-height: 35px;
+        }
+        .content .p5 {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .icon .About_us_caption {
+            font-weight: 400;
+            font-size: 15px;
+        }
+        .Home_care .people_image {
+            padding-left: 31px;
+        }
+        .Eldery_care .Eldery_care_image {
+            padding-left: 50px;
+        }
+        .Eldery_care .Eldery_care_caption_1 {
+            padding-left: 71px;
+        }
+        .Eldery_care_caption_1 p {
+            color: #00A8F0;
+            margin-bottom: 0px;
+        }
+        .Eldery_care_caption_1 h5 {
+            padding-top: 5px;
+            color: #FFFFFF;
+            font-weight: 300;
+    
+        }
+        .people_image h4 {
+            color: rgb(87, 84, 84);
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .Explore_our_service{
+            padding-bottom: 100px;
+        }
+        .people_image p {
+            font-size: 20px;
+        }
+        .meet_our_team_caption {
+            padding-left: 20px;
+        }
+        .meet_our_team_caption p {
+            margin-bottom: 6px;
+            color: #00A8F0;
+            font-size: 15px;
+    
+        }
+        .Eldery_care_image .Eldery_care_caption {
+            font-size: 16px;
+        }
+        .our_story .our_story_P {
+            padding-top: 40px;   
+    }
+    .gallery_image_5 {
+        width: 98%;
+        padding-left: 25px;
+        padding-top: 16px;
+    }
+}
+.item::after {
+    content: url(images/about-us-hover-image.png);
+    position: absolute;
+    right: -120px;
+    top: 130px;
+    height: 3px;
+    width: 0px;
+    transition: 0.3s;
+}
+
+.item:hover::after {
+    width: 100%;
+}
+.carousel_heading_2::before {
+    content: "";
+    background-color: #00A8F0;
+    width: 50px;
+    height: 3px;
+    left: 50px;
+    bottom: 80px;
+    position: absolute;
+}

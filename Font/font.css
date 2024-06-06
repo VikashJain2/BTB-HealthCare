@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'RNS Physis';
+    src: url('RNSPhysis-Medium.eot');
+    src: url('RNSPhysis-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RNSPhysis-Medium.woff2') format('woff2'),
+        url('RNSPhysis-Medium.woff') format('woff'),
+        url('RNSPhysis-Medium.ttf') format('truetype'),
+        url('RNSPhysis-Medium.svg#RNSPhysis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RNS Physis';
+    src: url('RNSPhysis-Light.eot');
+    src: url('RNSPhysis-Light.eot?#iefix') format('embedded-opentype'),
+        url('RNSPhysis-Light.woff2') format('woff2'),
+        url('RNSPhysis-Light.woff') format('woff'),
+        url('RNSPhysis-Light.ttf') format('truetype'),
+        url('RNSPhysis-Light.svg#RNSPhysis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
